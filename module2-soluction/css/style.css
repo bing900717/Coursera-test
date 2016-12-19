@@ -14,7 +14,6 @@
 .title {
 	float: right;
 	border: 1px solid black;
-	box-sizing: border-box;
 }
 
 .contentText{
@@ -27,12 +26,13 @@
 		border: 1px solid black;
 		/*box-sizing: border-box;*/
 		margin: 10px;
+		overflow: auto;
 
 }
 
 @media(min-width: 992px){
 	.first, .second, .third{
-		width: 33.33%;
+		width: calc(33.3% - 22px);
 		float: left;
 	}
 
@@ -41,25 +41,20 @@
 @media (min-width: 768px) and (max-width: 991px){
 
 
-	.first {
-		width: 50%;
-		float: left;
-	}
-
-	.second{
-		width: 50%;
+	.first, .second{
+		width: calc(50% - 22px);
 		float: left;;
 	}
 
 	.third {
-		width: 100%;
+		width: calc(100% -11px);
 		float: left;
 	}
 }
 
 @media(max-width: 767){
 	.first, .second, .third{
-		width: 100%;
+		width: calc(100% -11px);
 		float: left;
 	}
 }
