@@ -14,12 +14,28 @@
 .title {
 	float: right;
 	border: 1px solid black;
-	background: gray;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.title_1{
+	background: #d08d8d;
+}
+
+.title_2{
+	background: #b93c3b;
+}
+
+.title_3{
+	background: #e1ca8d;
 }
 
 .contentText{
 
 	float: left;
+	padding: 10px;
 }
 
 .first, .second, .third{
