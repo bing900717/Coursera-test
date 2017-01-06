@@ -1,13 +1,19 @@
-#myMenu {
-	background: #d8e0ec;
-}
+
 
 .navbar-default .navbar-nav>li>a {
     color: red !important;
+    margin: 0;
+}
+#list {
+    background-color: cyan;
+    margin: 0;
 }
 
 .section_item{
+	background-color:gray;
+}
 
-background-color:gray;
+#myHeader{
 
+	padding: 0;
 }
