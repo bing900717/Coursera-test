@@ -1,5 +1,9 @@
 
 
+#header-nav {
+	border-radius: 0;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: red !important;
     margin: 0;
@@ -11,9 +15,10 @@
 
 .section_item{
 	background-color:gray;
+	padding: 10px 10px 10px 10px;
 }
 
 #myHeader{
-
 	padding: 0;
 }
+
