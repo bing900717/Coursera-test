@@ -34,17 +34,18 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
-(function(window) {
+(function() {
+
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     for (var index in names) {
         var name = names[index];
         var firstLetter = name.charAt(0).toLowerCase();
         if (firstLetter === "j") {
-          window.byeSpeaker.speak(name);
+          byeSpeaker.speak(name);
         } else {
-            window.helloSpeaker.speak(name);
+          helloSpeaker.speak(name);
         }
     }
-})(window);
+})();
 
 
